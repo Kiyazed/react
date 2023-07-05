@@ -1,0 +1,90 @@
+.widget{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+ }
+ 
+ .items{
+    flex:1;
+    margin:0px 20px ;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: space-between;
+    background-image:url('./vintage-wallpaper.webp') ;
+    box-shadow: -2px -3px 5px 0px rgba(172,176,175,0.75);
+    -webkit-box-shadow: -2px -3px 5px 0px rgba(172,176,175,0.75);
+    -moz-box-shadow: -2px -3px 5px 0px rgba(172,176,175,0.75);
+
+ }
+ .itemTitle{
+    font-size: 18px;
+    
+
+ }
+ .itemtext{
+   align-items: end;
+ }
+ hr{
+   border: 0.2px solid grey;
+   
+ }
+ .itemContainer{
+    margin:20px 0px ;
+    display:flex;
+    align-items: center;
+ }
+ .totalNumber{
+    font-size: 30px;
+    font-weight: bold;
+    align-items:center;
+    margin-top: 20px;
+   
+ }
+ 
+ .agentheadIcons{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    font-size: 40px;
+    padding: 5px;
+    background-color:rgb(112, 112, 247);
+    border-radius: 20px;
+    
+
+ }
+ .agentIcons{
+   display: flex;
+   align-items: flex-start;
+   margin-right: 10px;
+   font-size: 40px;
+   padding: 5px;
+   background-color:rgb(241, 124, 124);
+   border-radius: 20px;
+
+ }
+ .agentPending{
+   display: flex;
+   align-items: flex-start;
+   margin-right: 10px;
+   font-size: 40px;
+   padding: 5px;
+   background-color:green;
+   border-radius: 20px;
+ }
+ .itemright{
+   padding-top: 20px;
+   justify-content: space-between;
+ }
+ a{
+   color: white;
+   cursor: pointer;
+ }
+   a:hover{
+    
+    color: rgb(135, 135, 250);
+   }
+ 
+ 

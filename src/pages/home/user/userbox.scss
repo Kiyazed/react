@@ -1,0 +1,47 @@
+.userbox{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+ }
+ 
+ .items{
+    flex:1;
+    margin:0px 20px ;
+    padding: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: -2px -3px 5px 0px rgba(172,176,175,0.75);
+    -webkit-box-shadow: -2px -3px 5px 0px rgba(172,176,175,0.75);
+    -moz-box-shadow: -2px -3px 5px 0px rgba(172,176,175,0.75);
+ }
+ .itemTitle{
+    font-size: 18px;
+    
+
+ }
+ .itemContainer{
+    margin:20px 0px ;
+    display:flex;
+    align-items: center;
+ }
+ .totalNumber{
+    font-size: 30px;
+    font-weight: bold;
+    align-items:center;
+    margin-top: 20px;
+   
+ }
+ 
+ .dashIcons{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    font-size: 20px;
+ }
+ .agentheadIcons{
+   font-size: 10px;
+   
+
+ }

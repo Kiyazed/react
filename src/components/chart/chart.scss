@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&display=swap');
+.chart{
+    flex: 2;
+    flex-direction: row;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: gray;
+  margin: 10px;
+ }
+ .chartTitle {
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+   color: #000;  
+  }
+
+  .chartGrid {
+    stroke: rgb(228, 225, 225);
+  }

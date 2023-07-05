@@ -1,0 +1,31 @@
+.agent{
+    flex: 4;
+    padding-top: 10px;
+    .delete{
+        margin-right: 10px;
+        color: red;
+    }
+    .edit{
+        margin-right: 10px; 
+         
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        border:0.5px solid lightgrey;
+        padding: 3px;
+       
+        margin:10px 0 10px 77%;
+        
+        width: 20%;
+        border-radius: 15px;
+       
+       
+        
+    input{
+        border: none;
+        outline:none;
+        
+    }
+    }
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&display=swap');
+ .dashboard{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .text{
+   font-size: 40px;
+   font-family: 'Lobster', cursive;
+   padding: 20px;
+   margin: 10px;
+ }
+ .items{
+    flex:1;
+    margin:0px 20px ;
+    padding: 30px;
+    border-radius: 10px;
+    color:#e4dcdc;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+ }
+ .item2{
+   flex:1;
+   margin:0px 20px ;
+   padding: 30px;
+   border-radius: 10px;
+   color:#e4dcdc;
+   font-family: 'Lobster', cursive;
+   cursor: pointer;
+   font-weight: bold;
+   box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    background-image: url('./darkness.webp');
+ }
+ .item3{
+   flex:1;
+   margin:0px 20px ;
+   padding: 30px;
+   border-radius: 10px;
+   font-weight: bold;
+   color:#e4dcdc;
+   font-family: 'Lobster', cursive;
+   cursor: pointer;
+   box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+  background-image: url('./denim.png');
+ }
+ .item4{
+   flex:1;
+   margin:0px 20px ;
+   padding: 30px;
+   color:#e4dcdc;
+   border-radius: 10px;
+   font-family: 'Lobster', cursive;
+   cursor: pointer;
+   box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    background-image: url('./circle-blues.webp');
+}
+ 
+ .itemTitle{
+    font-size: 30px;
+   
+    
+    
+
+ }
+ .itemContainer{
+    margin:20px 0px ;
+    display:flex;
+    align-items: center;
+ }
+ .totalNumber{
+    font-size: 30px;
+    font-weight: bold;
+    align-items:center;
+    margin-top: 20px;
+    color: #fff;
+   
+ }
+ 
+ .dashIcons{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    font-size: 14px;
+    background-color: rgb(164, 164, 250);
+    border-radius: 20px;
+   
+    
+
+ }
+ .agentIcons{
+   display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    font-size: 30px;
+    background-color: green;
+    border-radius: 20px;
+ }
+ .pendingIcons{
+   display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    font-size: 30px;
+    background-color: green;
+    border-radius: 20px
+ }
