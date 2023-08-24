@@ -12,13 +12,13 @@
   justify-content: space-between;
     .leftside{
       flex:70%;
-      
-       
         display: flex;
         align-items: center;
         border: 0.5px solid lightgray;
-        padding: 3px;
-        border-radius: 15px;
+        padding: 0px;
+        margin-left:10px ;
+        border-radius: 30px;
+        height: 40px;
         
   
          input {

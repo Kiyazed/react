@@ -2,18 +2,21 @@
 .user{
     width: 100%;
     height: 100vh;
-    
     justify-content: center;
     align-items: center;
     padding: 10px;
+    margin: 10px;
     
   }
   .header{
-    color:rgb(97, 97, 247); 
+    
     align-items: center;
     justify-content: center;
     margin: 10px;
     font-family: 'Lobster', cursive;
+    .hello{
+      color:rgb(97, 97, 247); 
+    }
   }
   .table {
     width: 100%;

@@ -2,17 +2,25 @@
 
 .container{
     display: flex;
-      
+   
+    
+}
+.log{
+    display: flex;
     
 }
 *{
     margin:0;
     padding: 0;
     text-decoration: none;
+    
+    
 }
 main{
     width:100%;
     padding: 20px;
+    
+   
 }
 .sidebar{
     background: whitesmoke;
@@ -20,7 +28,9 @@ main{
     height: 100vh;
     width: 300px;
     transition: all 0.5s;
+    position:fixed;
     font-family: 'Poppins', sans-serif;
+   
 }
 .top-section{
     display: flex;

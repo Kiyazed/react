@@ -55,19 +55,16 @@ function Formpage(){
       
         <div className="form">
           <div className="header">
-        <h1>Beneficiary Declaration Form </h1></div>
+        <h1 className="ben">Beneficiary Declaration Form </h1></div>
         <div className="newContainer">
           <div className="bottom">
             <div className="left">
-              <img
-                src="https://th.bing.com/th/id/R.b0136e1e7d87cf3f6bb0e5a7f7950d85?rik=1f2WeteHcIhKbg&pid=ImgRaw&r=0"
-                alt=""
-              /> 
-            <h3 className="head">Please Fill This Forms </h3>  
+              <img src="https://i.pinimg.com/564x/3e/4d/69/3e4d690ff412396177e9ee57338e7f4a.jpg"   alt=""  /> 
+            
             </div>
 
             <div className="right">
-              <div className="title"> Attaching to and forming part of group Life Assurance Policy No. GLAP/---</div>
+              <div className="tiright"> Attaching to and forming part of group Life Assurance Policy No. GLAP/---</div>
               <form>
                 <div className="formInput">
                   <label >Policy Owner </label>
@@ -99,7 +96,7 @@ function Formpage(){
                   </div>
                   <div className="formcountry">
                     <label className="labelcountry">Country of Destination :
-                    <select name="values">
+                    <select name="values" className="select">
                         <option value="select">select</option>
                         <option value="Ethiopia">Ethiopia</option>
                         <option>Sudan</option>
@@ -115,8 +112,9 @@ function Formpage(){
                     </label>
                     
                   </div>
-                  <button className="button">submit</button>
+                  
                   </form>
+                  <button className="button">submit</button>
                   </div>
                  
                 </div>

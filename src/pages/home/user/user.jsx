@@ -52,7 +52,7 @@ function User() {
     return (
       <div className="user">
       <div className="header">
-    <h1>Hello <Emoji text=":wave:"/> </h1></div>
+    <h1 className="hello">Hello <Emoji text=":wave:"/> </h1></div>
     
     <DataGrid
         rows={data}

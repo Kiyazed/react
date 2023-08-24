@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
  .dashboard{
     width:100%;
     display: flex;
@@ -6,7 +6,7 @@
  }
  .text{
    font-size: 40px;
-   font-family: 'Lobster', cursive;
+   font-family: 'Poppins', sans-serif;
    padding: 20px;
    margin: 10px;
  }
@@ -16,7 +16,7 @@
     padding: 30px;
     border-radius: 10px;
     color:#e4dcdc;
-    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
     box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
@@ -28,7 +28,7 @@
    padding: 30px;
    border-radius: 10px;
    color:#e4dcdc;
-   font-family: 'Lobster', cursive;
+   font-family: 'Poppins', sans-serif;
    cursor: pointer;
    font-weight: bold;
    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
@@ -43,7 +43,7 @@
    border-radius: 10px;
    font-weight: bold;
    color:#e4dcdc;
-   font-family: 'Lobster', cursive;
+   font-family:'Poppins', sans-serif;
    cursor: pointer;
    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
@@ -56,7 +56,7 @@
    padding: 30px;
    color:#e4dcdc;
    border-radius: 10px;
-   font-family: 'Lobster', cursive;
+   font-family: 'Poppins', sans-serif;
    cursor: pointer;
    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
